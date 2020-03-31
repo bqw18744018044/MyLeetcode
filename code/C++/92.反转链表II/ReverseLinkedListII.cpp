@@ -9,7 +9,7 @@ struct ListNode{
     ListNode(int x) : val(x), next(NULL) {}
 };
 
-// ͷ�巨
+// 头插法
 ListNode* reverseBetween(ListNode* head, int m, int n) {
     if(head==NULL||head->next==NULL)return head;
     if(m==n)return head;
